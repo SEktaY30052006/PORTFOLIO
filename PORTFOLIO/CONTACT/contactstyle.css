@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+  /* HEADER */
+  header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+  }
+    
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff7f50;
+  }
+  /* Contact Section */
+  .contact-section {
+    padding: 40px 10px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+  }
+  .contact-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact-content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  .contact-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  /* Contact Info */
+  .contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  .contact-info {
+    text-align: left;
+  }
+  .contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info p {
+    font-size: 20px;
+  }
+  
+  .contact-info a {
+    color: #ff7f50;
+    text-decoration: none;
+  }
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  /* Contact Form */
+  .contact-form {
+    color: black;
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  .contact-form h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  } 
+  .submit-btn {
+    background-color: #ff7f50;
+    color: black;
+    padding: 20px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e56a44;
+  }
+ /* FOOTER */
+ footer {
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}

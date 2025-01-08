@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  background-color: black;  
+  padding: 30px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+header a {
+  color: white;  
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+nav ul li a {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #f4b400; 
+}
+
+
+.home-section {
+  height: 90%;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  padding: 50px 0;
+}
+.home-content {
+  display: flex;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.text-content {
+  flex: 1;
+  padding: 30px;
+}
+.text-content h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+.text-content span {
+  color: #f4b400; 
+}
+.text-content p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+  animation: fadeIn 2.5s ease-in-out;
+}
+.cta-buttons {
+  display: flex;
+  gap: 30px;
+  animation: fadeIn 3s ease-in-out;
+}
+.cta-btn {
+  background-color: #f4b400; 
+  color: #333;
+  padding: 20px 50px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.cta-btn:hover {
+  background-color: #ab7d00;
+  color: #333;  
+  transform: translateY(-5px);
+}
+
+.background-img {
+  animation: slideIn 1.5s ease-in-out;
+}
+.background-img img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* FOOTER */
+footer {
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}

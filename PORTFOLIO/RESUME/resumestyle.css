@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+  /* HEADER */
+  header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff7f50;
+  }
+    
+  /* Resume Section */
+  .resume-section {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    padding: 40px 20px;
+    color: white;
+  }
+  
+  .resume-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .resume-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  /* Download Button */
+  .download-btn-container {
+    margin-bottom: 20px;
+  }
+  
+  .download-btn {
+    background-color: #ff7f50;
+    color: black;
+    padding: 20px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #e56a44;
+  }
+  /* Resume Details */
+  .resume-details {
+    text-align: left;
+  }
+  .resume-item h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-item ul {
+    list-style-type: none;
+  }
+
+  .resume-item ul li {
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  .resume-item ul li h3 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .resume-item ul li p {
+    font-size: 18px;
+    color: #555;
+  }
+  .resume-item p{
+    background-color: #f8f8f8;
+    color: black;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  /* FOOTER */
+  footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+  }
+  
